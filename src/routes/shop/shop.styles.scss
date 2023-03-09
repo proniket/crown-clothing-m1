@@ -1,0 +1,25 @@
+// .product-wrapper {
+//     padding: 1rem;
+// }
+// .products-container {
+//         display: grid;
+//         grid-template-columns: repeat(4, 1fr);
+//         column-gap: 10px;
+//         row-gap: 50px;
+//         // padding: 1rem;
+
+//         @media screen and (max-width: 1235px) {
+
+//             grid-template-columns: repeat(3, 1fr);
+//         }
+
+//         @media screen and (max-width: 768px) {
+
+//             grid-template-columns: repeat(2, 1fr);
+//         }
+//     }
+
+.shop-container {
+    display: flex;
+    flex-direction: column;
+}
